@@ -6,13 +6,14 @@ import MainPage from './pages/mainPage.jsx'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <MainPage />
+    element: <Login />
   },
   {
-    path: '/Login',
-    element: <Login />
-  }
+    path: '/Main',
+    element: <MainPage />
+  },
 ])
+
 
 export default function Router() {
   return <RouterProvider router={router} />
