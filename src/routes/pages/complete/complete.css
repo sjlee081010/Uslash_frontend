@@ -1,0 +1,104 @@
+.chat-page {
+  width: 360px;
+  margin: 0 auto;
+  font-family: 'Pretendard', sans-serif;
+  background-color: #fff;
+  padding: 16px;
+}
+
+.status-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 16px;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  gap: 4px;
+}
+
+.status.active {
+  color: #00c66e;
+  border-bottom: 2px solid #00c66e;
+  padding-bottom: 4px;
+}
+
+.status.inactive {
+  color: #c1c1c1;
+}
+
+.tab-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 16px;
+}
+
+.tab {
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #555;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+}
+
+.tab.selected {
+  background-color: #2b2b2b;
+  color: white;
+}
+
+/* 메시지 리스트 */
+.message-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.message-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 12px;
+}
+
+.profile-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+}
+
+.message-body {
+  flex: 1;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.message-content {
+  font-size: 13px;
+  color: #555;
+  margin-top: 4px;
+}
+
+.unread-badge {
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  background-color: #00c66e;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

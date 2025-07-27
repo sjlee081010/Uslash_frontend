@@ -1,0 +1,108 @@
+.create-container {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.create-container input,
+.create-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.map {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.search-box {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.search-box button {
+  padding: 8px 12px;
+  border: none;
+  background: #4CAF50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #32c55e;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.category-box {
+  padding: 12px;
+  background-color: #f3f3f3;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.modal-overlay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.3);
+  z-index: 999;
+}
+
+.category-modal {
+  background: white;
+  padding: 20px;
+  border-radius: 16px 16px 0 0;
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.category-section p {
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.category-section button {
+  margin: 4px;
+  padding: 6px 12px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.close-modal {
+  margin-top: 20px;
+  width: 100%;
+  background: #32c55e;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+}
+
+.bottom-space {
+  height: 70px;
+}

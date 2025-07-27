@@ -1,0 +1,95 @@
+.mypage-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: 'Pretendard', sans-serif;
+}
+
+.profile-section {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.location {
+  color: #333;
+  font-size: 14px;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 4px;
+}
+
+.edit-button {
+  margin-top: 8px;
+  font-size: 12px;
+  padding: 4px 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.balance-section {
+  background-color: #2DC270;
+  border-radius: 12px;
+  padding: 16px;
+  color: white;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.balance-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.balance-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.balance-buttons button {
+  width: 48%;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: #2DC270;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.menu-section {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+}
+
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-section li {
+  padding: 10px 0;
+  font-size: 15px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.menu-section li:last-child {
+  border-bottom: none;
+}
+
+.menu-section hr {
+  margin: 16px 0;
+  border: none;
+  border-top: 1px solid #eee;
+}

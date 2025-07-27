@@ -3,3 +3,7 @@
     src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     font-style: normal;
 }
+
+.footer-space {
+  height: 80px; /* Nav 높이만큼 조정 */
+}

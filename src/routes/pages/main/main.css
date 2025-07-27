@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pretendard-Regular';
+}
+
+#container{
+    padding: 96px 16px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    width: 329px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 26px;
+}
+
+.title .semibold{
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.title .medium{
+    font-family: 'Pretendard-Regular';
+    font-weight: 400;
+    font-size: 12px;
+    color: #938E8B;
+}
+
+#last{
+    margin-bottom: 16px;
+}
+
+.sort {
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  gap: 8px;
+  height: 24px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+  margin-bottom: 12px;
+}
+
+.sort-item {
+  flex-shrink: 0;
+  border-radius: 10px;
+  padding: 5px 8px;
+  font-size: 12px;
+  font-weight: 400;
+  border: 1px solid #2DC270;
+  color: #2DC270;
+  white-space: nowrap;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.sort-item.active {
+  background-color: #2DC270;
+  color: white;
+}
+
+.marts {
+  display: flex;
+  gap: 12px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.mart-item {
+  cursor: pointer;
+  color: #999999;
+  transition: color 0.2s ease-in-out;
+}
+
+.mart-item.selected {
+  color: #2DC270;
+}
+
+.mart_lists>div:nth-child(5){
+    margin-bottom: 0;
+}

@@ -1,0 +1,49 @@
+.nav-container {
+  position: fixed;
+  bottom: 16px; /* 화면 아래에서 띄우기 */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 310px; /* 전체 너비 조정, 기기별 조정 가능 */
+  height: 50px;
+  background: white;
+  border-radius: 30px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-around; /* 아이콘 간격 균등 배치 */
+  align-items: center;
+  padding: 0 20px;
+  z-index: 1000; /* 항상 위에 */
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  max-width: 56px;
+  cursor: pointer;
+}
+
+.nav-item img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.nav-item.plus {
+  width: 56px;
+  height: 56px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px; /* 살짝 위로 올려서 강조 */
+}
+
+.nav-item.plus img {
+  width: 24px;
+  height: 24px;
+  filter: invert(1); /* 흰색 아이콘처럼 보이게 */
+}
